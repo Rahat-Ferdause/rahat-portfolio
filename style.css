@@ -1,9 +1,85 @@
 body{
-    background-image:linear-gradient(to right, blue, skyblue);
-    height: 100%;
-    background-repeat: no-repeat;
+    margin: 0px;
 }
-h1{
-    color: rgb(197, 133, 14);
+#main-div{
+
+}
+.rahat{
+    color: coral;
     font-family: 'Island Moments', cursive;
+    padding-top: 0px;
+    font-size: 50px;
+}
+.logo-name{
+    font-family: 'Island Moments', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 10px;
+    background-image:linear-gradient(to right, black, white);
+}
+#sub-div{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.name{
+    font-size: 50px;
+    color: coral;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 200;
+    padding-left: 15px;
+    
+}
+#hey{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    border-left: 5px solid tomato;
+    border-radius: 5px;
+    border-image: linear gradient(orange, tomato);
+    border-image-slice: 1;
+}
+.there{
+    font-family: 'Playfair Display', serif;
+}
+
+.link-profile{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, orange, tomato);
+    color: rgb(0, 0, 0);
+
+}
+.link-contact{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, tomato, orange);
+    color: rgb(0, 0, 0);
+}
+.bio{
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 50%;
+}
+.img-1{
+    width: 100%;
+}
+.banner{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
