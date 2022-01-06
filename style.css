@@ -1,6 +1,8 @@
 body{
     margin: 0px;
+    background-image: linear-gradient(to right, rgb(65, 20, 124), rgb(10, 153, 179));
 }
+                   /* section 1 start  */
 .rahat{
     color: coral;
     font-family: 'Island Moments', cursive;
@@ -13,7 +15,7 @@ body{
     text-align: center;
     margin: 0px;
     padding-top: 10px;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(65, 20, 124), rgb(10, 153, 179));
 }
 #sub-div{
     padding-top: 100px;
@@ -21,7 +23,7 @@ body{
 }
 .name{
     font-size: 50px;
-    color: coral;
+    color: rgb(235, 119, 42);
     font-family: 'Abril Fatface', cursive;
     font-weight: 200;
     padding-left: 15px;
@@ -34,9 +36,11 @@ body{
     border-radius: 5px;
     border-image: linear gradient(orange, tomato);
     border-image-slice: 1;
+    color: beige;
 }
 .there{
     font-family: 'Playfair Display', serif;
+    color: beige;
 }
 
 .link-profile{
@@ -66,13 +70,196 @@ body{
     font-size: 30px;
     text-align: justify;
     padding-right: 40px;
+    color: beige;
 }
-section{
+.banner{
     display: flex;
 }
 .half{
     width: 50%;
+    
 }
 .half img{
     width: 100%;
+}
+                       /* section 1 end  */
+
+                       /* section 2 start  */
+
+.for-2022{
+    font-size: 50px;
+    text-align: center;
+    color: beige;
+}
+.flexible{
+    display: flex; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ills{
+    height: 150px;  
+    padding-top: 10px;
+}
+.half-1{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin: 10px;
+    background-color: rgb(99, 109, 46);
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+
+}
+.half-2{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin: 10px;
+    background-color: rgb(29, 29, 109);
+    padding-bottom: 50px;
+    color: blanchedalmond;
+}
+.half-3{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin: 10px;
+    background-color: rgb(88, 61, 43);
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+
+}
+.text{
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    color: beige;
+}
+                        /* section 2 end  */
+                        /* section 3 start  */
+
+.practice{
+    background-image: url(/img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 500px;
+    display: flex; 
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 150px;
+}
+.half-4{
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.half-4 img{
+    height: 400px;  
+    width: 600px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px gray;
+    margin-left: 50px;
+}
+.head-1{
+    padding-top: 80px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: beige;
+}
+.head-2{
+    font-size: 30px;
+    margin-top: 0px;
+    color: beige;
+}
+.sub-text{
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+    padding-right: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: beige;
+}
+.link-btn{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(to right, tomato, orange);
+    color: rgb(0, 0, 0);
+}
+                     /* section 3 end  */
+
+                     /* section 4 start  */
+
+.show{
+    background-image: url(/img/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px;
+    display: flex; 
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.head-3{
+    padding-top: 80px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: beige;
+}
+.head-4{
+    font-size: 30px;
+    margin-top: 0px;
+    color: beige;
+}
+.success-1{
+   padding-left: 50px; 
+}
+.half-5 img{
+    height: 400px;  
+    width: 600px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px gray;
+    margin-right: 50px;
+}
+                   /* section 4 end */
+                   /* foter start */
+footer{
+    background-image: linear-gradient(to right, rgb(65, 20, 124), rgb(10, 153, 179));
+    height: 155px;
+}
+.mission{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    margin-bottom: 0px;
+    color: azure;
+}
+.prac{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: azure;
+}
+footer p{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    color: azure;
+}
+.footer-name{
+    font-family: 'Island Moments', cursive;
+    font-size: 40px;
+    font-weight: 600;
+    color: azure;
+}
+footer span{
+    font-size: 30px;
+    color: azure;
 }
